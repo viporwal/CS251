@@ -1,0 +1,5 @@
+#Application Baseline Policy1 Policy2 Policy3
+Webserver 1 10 11.5 11.2 0.2 1.2 0.9 1.1
+Proxycache 1 2.1 3.25 2.95 0.1 0.2 0.3 0.05
+Varmail 1 1.28 1.1 1.33 0.03 0.01 0.2 0.9
+Videoserver 1 0.75 0.85 3.6 0.1 0.02 0.1 0.05

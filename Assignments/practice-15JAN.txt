@@ -1,0 +1,16 @@
+1. Write a bash script to accept a positive integer as input. Perform
+   sanity check on the input. If the input is valid, the script should
+   print all the digits in English (e.g., for input '123', output is 'one 
+   two three').
+
+2. Write a bash script to calculate words of all files rooted under a
+   directory tree and print the file name only if number of words in the file is
+   a prime number.
+
+3. In the example, presented in class, the leap year logic is flawed. Modify the
+   code to implement the correct logic.
+
+4. A simple regular expression used in the examples to match a valid date in dd-mm-yyyy 
+   format does not filter out all invalid dates. Improve the regular expression to 
+   make it more tight (preferably match only valid dates). 
+      

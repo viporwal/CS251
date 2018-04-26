@@ -1,0 +1,34 @@
+1. Print names of all files in a directory that contain a particular string.
+
+2. Create a multiple directories (in a provided path) using a single command.
+   For example your command should create A, B and C for an argument /home/user/A/B/C
+   where directories home and user are already present.
+
+3. Count the number of lines and words in a given file.
+
+4. Given a space separated data sheet, extract and print the Nth column.
+
+5. Find all files under a directory tree with <your name> as part of the 
+   filename.
+
+6. Create an archive (tarball) of a given directory. Find out the size of
+   the archive. Compare the size of the archive to size of the directory.
+   (use ls and du commands to find the size). Compress the tarball using
+   gzip and bzip2. Compare the size of compressed archives.
+
+7. Use VIM or Emacs editor to 
+			- Create a C program that reverses a string with input string defined as
+                         a Macro i.e., #define INSTR "hello world". 
+                        - Change the Macro name to INPUTSTR by find and replace from your C
+                          source file
+                        - Execute ls command from within the editor environment
+                        - Use split functionality to open multiple files
+
+8. Given a large file print the first N lines. 
+ 
+9. Given a large file print the last N lines. 
+
+10. Open firefox/chrome browser. Find the process id (pids) for the processes
+    corresponding to browser application. Capture 10 samples for CPU utilization by 
+    the processes using the top command. Extract the CPU utilization for each process and
+    calculate the average CPU utilization for each process.
