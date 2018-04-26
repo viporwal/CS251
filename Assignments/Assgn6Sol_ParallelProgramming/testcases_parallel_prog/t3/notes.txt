@@ -1,0 +1,44 @@
+3. A test case where only 100 ACs participate. An account randomly
+ chosen from the 100 A/Cs will be subjected to two consecutive transactions
+  ----DEPOSIT and WITHDRAW of different amounts
+
+#accounts = 10,000
+active accounts 1,001 - 1,100
+#transactions = 60,000
+
+
+Following are some such consecutive transactions of some accounts (trans[i] and trans[i-1])
+special case on trans[2] for acc[1011]
+special case on trans[3] for acc[1011]
+special case on trans[166] for acc[1076]
+special case on trans[5080] for acc[1072]
+special case on trans[6333] for acc[1088]
+special case on trans[7488] for acc[1091]
+special case on trans[8888] for acc[1040]
+special case on trans[10941] for acc[1067]
+special case on trans[12337] for acc[1094]
+special case on trans[15990] for acc[1022]
+special case on trans[16204] for acc[1037]
+special case on trans[16419] for acc[1077]
+special case on trans[16910] for acc[1099]
+special case on trans[16930] for acc[1091]
+special case on trans[20637] for acc[1024]
+special case on trans[21798] for acc[1034]
+special case on trans[22483] for acc[1066]
+special case on trans[22824] for acc[1052]
+special case on trans[23135] for acc[1076]
+special case on trans[26763] for acc[1100]
+special case on trans[27132] for acc[1084]
+special case on trans[30346] for acc[1058]
+special case on trans[35344] for acc[1055]
+special case on trans[40377] for acc[1012]
+special case on trans[40424] for acc[1043]
+special case on trans[41270] for acc[1005]
+special case on trans[46068] for acc[1018]
+special case on trans[48169] for acc[1067]
+special case on trans[49673] for acc[1053]
+special case on trans[53202] for acc[1055]
+special case on trans[54150] for acc[1098]
+special case on trans[56635] for acc[1025]
+special case on trans[58913] for acc[1068]
+

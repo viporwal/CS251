@@ -1,0 +1,7 @@
+2. A test case where only 100 ACs participate in transactions (total
+  A/Cs still is 10000) and each transaction is equally likely.
+
+#accounts = 10,000
+active accounts 1,001 - 1,100
+#transactions = 60,000
+

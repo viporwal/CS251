@@ -1,0 +1,29 @@
+4. A test case where only 100 ACs participate and all transactions are 
+ funds transfer (TRANSFER) from one A/C to another. You may incorporate 
+ some consecutive transactions with exactly opposite directions of fund movement.
+
+#accounts = 10,000
+active accounts 1,001 - 1,100
+#transactions = 60,000
+
+
+Consecutive transactions
+special case on trans[1733] for acc[1075 and 1020]
+special case on trans[1734] for acc[1020 and 1075]
+special case on trans[5621] for acc[1077 and 1039]
+special case on trans[5622] for acc[1039 and 1077]
+special case on trans[8971] for acc[1072 and 1077]
+special case on trans[8972] for acc[1077 and 1072]
+special case on trans[15975] for acc[1007 and 1030]
+special case on trans[15976] for acc[1030 and 1007]
+special case on trans[21271] for acc[1036 and 1045]
+special case on trans[25500] for acc[1022 and 1047]
+special case on trans[25517] for acc[1075 and 1009]
+special case on trans[42015] for acc[1098 and 1099]
+special case on trans[42016] for acc[1099 and 1098]
+special case on trans[42017] for acc[1098 and 1099]
+special case on trans[42934] for acc[1025 and 1069]
+special case on trans[42935] for acc[1069 and 1025]
+special case on trans[45478] for acc[1052 and 1021]
+special case on trans[45479] for acc[1021 and 1052]
+
