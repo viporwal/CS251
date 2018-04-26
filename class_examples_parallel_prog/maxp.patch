@@ -1,0 +1,39 @@
+--- find_max_p.c	2018-03-08 16:02:44.880421670 +0530
++++ find_max_p_fixed.c	2018-03-08 16:06:52.124427896 +0530
+@@ -20,6 +20,7 @@
+                        int *array;
+                        int size;
+                        int skip;
++                       int thread_ctr;
+                        double max;  
+                        int max_index;
+ };
+@@ -33,11 +34,12 @@
+ void* find_max(void *arg)
+ {
+      struct thread_param *param = (struct thread_param *) arg;
+-     int ctr;
++     int ctr = param->thread_ctr;
++
+      param->max = function(param->array[ctr]);
+      param->max_index = ctr;
+-   
+-     ctr = param->skip;
++     ctr += param->skip;
++
+      while(ctr < param->size){
+            double x = function(param->array[ctr]);
+            if(x > param->max){
+@@ -91,9 +93,10 @@
+   /*Partion data and create threads*/      
+   for(ctr=0; ctr < num_threads; ++ctr){
+         struct thread_param *param = params + ctr;
+-        param->size = num_elements - ctr;
++        param->size = num_elements;
+         param->skip = num_threads;
+-        param->array = a + ctr;
++        param->array = a;
++        param->thread_ctr = ctr;
+         
+         if(pthread_create(&param->tid, NULL, find_max, param) != 0){
+               perror("pthread_create");
